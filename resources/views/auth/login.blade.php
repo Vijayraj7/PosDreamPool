@@ -54,10 +54,10 @@
                             <button type="submit" class="btn login-btn submit-btn">{{ __('Log In') }}</button>
 
 
-                            <div class="d-flex justify-content-between">
+                            {{-- <div class="d-flex justify-content-between">
                                 <a class="backhome" href="{{ url('/') }}">{{ __('Back Home') }}</a>
                                 <a class="backhome" data-bs-toggle="modal" data-bs-target="#registration-modal">{{ __('Create an Account') }}</a>
-                            </div>
+                            </div> --}}
                         </form>
                     </div>
                 </div>
