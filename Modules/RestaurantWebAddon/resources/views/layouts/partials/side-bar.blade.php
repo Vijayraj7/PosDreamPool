@@ -719,7 +719,7 @@
             @endusercanany
             @endif
 
-            {{-- @usercan('download-apk.view')
+            @usercan('download-apk.view')
             <li>
                 <a href="{{ get_option('general')['app_link'] ?? '' }}" target="_blank" class="active">
                     <span class="sidebar-icon">
@@ -730,7 +730,7 @@
                     {{ __('Download Apk') }}
                 </a>
             </li>
-            @endusercan --}}
+            @endusercan
 
             @usercan('subscriptions.view')
             <li>
