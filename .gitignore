@@ -54,3 +54,4 @@
 /node_modules
 storage/racord.txt
 /vendor/_laravel_ide
+/public/uploads
